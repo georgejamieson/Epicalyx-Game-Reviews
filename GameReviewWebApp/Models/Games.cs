@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace games.Models
+namespace GameReviewWebApp.Models
 {
-    public class games
+    public class Games
     {
         public int GameID { get; set; }
         public string GameName { get; set; }

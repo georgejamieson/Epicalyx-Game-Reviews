@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FinalReview.Models
+namespace GameReviewWebApp.Models
 {
     public class FinalReview
     {
@@ -12,7 +12,7 @@ namespace FinalReview.Models
         public int Publisher { get; set; }
    
 
-        public games Games{ get; set; }
+        public Games Games{ get; set; }
         public User User { get; set; }
     }
 }
